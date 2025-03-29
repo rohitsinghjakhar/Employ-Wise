@@ -2,7 +2,7 @@
 🔹 Overview
 This is a User Management System built using React.js for the frontend and Spring Boot for the backend. It provides authentication, user listing with pagination, editing, and deletion functionalities. The system uses JWT authentication for secure login and manages user data through a RESTful API.
 
-🔹 Tech Stack
+# Tech Stack
 Frontend (React.js)
 React.js (Functional Components & Hooks)
 
@@ -25,7 +25,7 @@ MySQL (Database)
 
 Lombok (Boilerplate code reduction)
 
-#Features
+# Features
 ✅ User Authentication
 Users can log in with email & password.
 
@@ -47,8 +47,9 @@ Pagination allows navigating between pages of users.
 
 Users are updated & deleted instantly without page refresh.
 
-#Project Structure
-Frontend (React.js)
+# Project Structure
+
+=> Frontend (React.js)
 /components/Login.js (User Login Form)
 
 /components/UsersList.js (Fetch & Display Users)
@@ -59,7 +60,7 @@ Frontend (React.js)
 
 /App.js (Routes & Navigation)
 
-Backend (Spring Boot)
+=> Backend (Spring Boot)
 /entities/User.java (User Entity)
 
 /repositories/UserRepository.java (Database Access)

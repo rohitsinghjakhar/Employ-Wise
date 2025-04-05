@@ -1,72 +1,49 @@
-# Employ-Wise
-🔹 Overview
-This is a User Management System built using React.js for the frontend and Spring Boot for the backend. It provides authentication, user listing with pagination, editing, and deletion functionalities. The system uses JWT authentication for secure login and manages user data through a RESTful API.
+# 🚀 Employ-Wise - User Management System
 
-# Tech Stack
-Frontend (React.js)
-React.js (Functional Components & Hooks)
+A full-stack **User Management System** built with **React.js** and **Spring Boot**. Employ-Wise offers secure JWT-based authentication, user listing with pagination, and CRUD operations via RESTful APIs.
 
-Axios (API calls)
+---
 
-React Router (Navigation)
+## 🧩 Tech Stack
 
-Context API (Authentication state management)
+### ⚙️ Backend - Spring Boot
+- **Spring Boot** – RESTful API development  
+- **Spring Security** – JWT Authentication  
+- **Spring Data JPA** – ORM & DB operations  
+- **MySQL** – Relational Database  
+- **Lombok** – Boilerplate code reduction  
 
-CSS (Styling & Layout)
+### 🎨 Frontend - React.js
+- **React.js** – Functional Components + Hooks  
+- **Axios** – API Integration  
+- **React Router** – Navigation & Routing  
+- **Context API** – Authentication State  
+- **CSS** – UI Styling  
 
-Backend (Spring Boot)
-Spring Boot (REST API)
+---
 
-Spring Security (JWT Authentication)
+## ✨ Features
 
-Spring Data JPA (Database operations)
+### 🔐 User Authentication
+- Login via **Email & Password**  
+- **JWT Token** management for secure session  
+- Token stored in **localStorage**  
 
-MySQL (Database)
+### 👥 User Management
+- ✅ Fetch users with **Pagination**  
+  `GET /api/users?page=1`  
+- ✅ **Edit User** details  
+  `PUT /api/users/{id}`  
+- ✅ **Delete Users**  
+  `DELETE /api/users/{id}`  
 
-Lombok (Boilerplate code reduction)
+### 🧾 UI & UX Enhancements
+- Clean and responsive **table/card** layout  
+- Smooth **pagination navigation**  
+- Instant **update/delete** with no page refresh  
 
-# Features
-✅ User Authentication
-Users can log in with email & password.
+---
 
-Authentication is managed using JWT tokens.
+## 📁 Project Structure
 
-Token is stored in localStorage for session management.
-
-✅ User Management
-Fetch Users with Pagination (GET /api/users?page=1)
-
-Edit User Details (PUT /api/users/{id})
-
-Delete Users (DELETE /api/users/{id})
-
-✅ Pagination & UI Enhancements
-Users are displayed in a structured table/card format.
-
-Pagination allows navigating between pages of users.
-
-Users are updated & deleted instantly without page refresh.
-
-# Project Structure
-
-=> Frontend (React.js)
-/components/Login.js (User Login Form)
-
-/components/UsersList.js (Fetch & Display Users)
-
-/context/AuthContext.js (Manages Auth State)
-
-/services/userService.js (Handles API Calls)
-
-/App.js (Routes & Navigation)
-
-=> Backend (Spring Boot)
-/entities/User.java (User Entity)
-
-/repositories/UserRepository.java (Database Access)
-
-/services/UserService.java (Business Logic)
-
-/controllers/UserController.java (REST API Endpoints)
-
-/security/JwtUtils.java (JWT Token Management)
+### 🖥️ Frontend (React.js)
